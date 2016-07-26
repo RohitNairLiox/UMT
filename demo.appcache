@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# 2016-07-26 v1.0.0
+
+CACHE:
+
+assets/css/uikit.css
+assets/UIKit/js/uikit.min.js
+assets/UIKit/js/components/tooltip.min.js
+assets/UIKit/js/components/autocomplete.min.js
+assets/UIKit/js/components/timepicker.min.js
+assets/UIKit/js/components/scrollspy.min.js
+assets/UIKit/js/components/sticky.min.js
+
+# Require the user to be online.
+NETWORK:
+
+*
+
+# offline.html will be served in place of all other .html files
+FALLBACK:
+/index.html /offline.html
